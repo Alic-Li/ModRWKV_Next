@@ -3,12 +3,14 @@
 使用Gradio为ModRWKV-VLM + RWKV LLM 组合创建了一个可视化界面Demo 🤗
 
 ## 预览 👀
+**下面是使用了RWKV 7 G1a3 1.5B的测试结果 😎** [rwkv7-g1a3-1.5b-20251015-ctx8192.pth](https://huggingface.co/BlinkDL/rwkv7-g1/blob/main/rwkv7-g1a3-1.5b-20251015-ctx8192.pth)
 
-![demo_img1](./doc/demo_img1.png)
-
-![demo_img2](./doc/demo_img2.png)
-
-![demo_img3](./doc/demo_img3.png)
+<p align="center">
+  <img src="./doc/demo_img1.png" width="600" />
+  <img src="./doc/demo_img2.png" width="600" />
+  <img src="./doc/demo_img3.png" width="600" />
+  <img src="./doc/demo_img4.png" width="600" />
+</p>
 
 ## 功能特性 ☝️🤓 
 
@@ -54,7 +56,7 @@ Bi-SRNet-Infer/
 
 ## RWKV LLM 后端使用 🕊️
 
-- 对于 RWKV LLM 请使用后端[**rwkv_lightning ⚡**](https://github.com/RWKV-Vibe/rwkv_lightning)
+- 对于 RWKV LLM 请使用后端[**rwkv_lightning**](https://github.com/RWKV-Vibe/rwkv_lightning)
 
 - 请使用带有CUDA graph支持的API启动推理后端来获得更好的性能
 
