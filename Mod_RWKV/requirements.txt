@@ -1,0 +1,16 @@
+bitsandbytes
+deepspeed
+einops
+triton
+rwkv-fla
+rwkv
+transformers
+lightning
+datasets
+Pillow
+librosa
+diffusers
+wandb
+jsonlines
+numpy
+gradio
